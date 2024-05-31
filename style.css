@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(12, 121, 121, 1) 100%);}
+
+
+    .mainHeading{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+.leftBox{
+/* background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(100, 18, 131, 1) 100%);border: 2px solid black; */
+    border: 2px solid black;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    width: 20rem;
+    height: 25rem;
+    padding-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding:0.5rem;
+    margin-top: 1rem;
+    width: 14rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn{
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+.heading{
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+.rightBox{
+    /* background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(100, 18, 131, 1) 100%); */
+        border: 2px solid black;
+        
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+}
+.temperature{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
